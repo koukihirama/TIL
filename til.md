@@ -45,3 +45,6 @@
 
 ## 2025-04-14
 - RDoc（Ruby Documentation System）は、Rubyで書かれたソースコードからドキュメントを自動生成するツール。クラスやメソッドの上に特定の形式のコメントを書くと、それに基づいてHTMLやテキスト形式のドキュメントが生成される。
+
+## 2025-04-15
+- ブランチを切り忘れたら→「git stash save」一時退避→「git stash list」逃避確認→「git checkout」作業ブランチを切る→「git stash apply stash@\{0\}」作業ブランチに退避した内容を反映
