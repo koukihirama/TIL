@@ -169,3 +169,6 @@ attr_accessorで読み書き両方可能に、attr_readerで読み取り専用�
 - HSTS（HTTP Strict Transport Security）
 とはHTTPレスポンスヘッダにHSTSに関する事項を記載することで、指定した有効期間内はブラウザ（ユーザエージェント）が同一ドメインにアクセスする際はTLSによる通信を強制する仕組み。
 つまり、HTTPでアクセスしようとしても、ブラウザが「このドメインはHTTPSでアクセスするドメイン！」と覚えていてくれて、HTTPSでリクエストを送ってくれるということ。
+
+## 2025-06-12
+- Active Storageは、Ruby on Railsに組み込まれているファイルアップロードのためのライブラリ。主に画像やファイルを扱うために使われる。これを使うと、ファイルをAmazon S3やGoogle Cloud Storageなどの外部ストレージサービスに保存できる。
