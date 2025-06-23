@@ -189,3 +189,8 @@ ActiveModel モジュールを使ってモデルライクな振る舞い（バ�
 
 ## 2025-06-22
 - Procとはブロックを持ち運び便利なオブジェクトにしたもの。ProcはクラスなのでProc.newでオブジェクトを作る事ができ、Proc.newによって作成されたProcオブジェクトはcallで呼び出すことができる。
+
+## 2025-06-23
+- ### **ActiveModel::Attributes**
+`attribute :name, :type` のように、型付き属性を定義できる。
+特に `array: true` は、配列として扱いたいときに必須。
