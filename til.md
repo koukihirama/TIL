@@ -236,3 +236,6 @@ wheneverを使えばcronに対して命令を行うcrontabに記述する内容�
 
 ## 2025-07-17
 - Rackはモジュール化された最小限のインターフェイスを提供することでUnicornやPumaといったアプリケーションサーバとRailsやSinatraといったフレームワーク間でスムーズなやりとりが行なえるようになる。
+
+## 2025-07-19
+- concernとは、app/models/concernsとapp/controllers/concernsのディレクトリに定義できるもの。concernを利用することによりロジックをモデルやコントローラと分けて定義でき、複数のモデルやコントローラ間で再利用できる。
