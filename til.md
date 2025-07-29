@@ -239,3 +239,7 @@ wheneverを使えばcronに対して命令を行うcrontabに記述する内容�
 
 ## 2025-07-19
 - concernとは、app/models/concernsとapp/controllers/concernsのディレクトリに定義できるもの。concernを利用することによりロジックをモデルやコントローラと分けて定義でき、複数のモデルやコントローラ間で再利用できる。
+
+## 2025-07-21
+- credentialsとは
+credentialsは秘密情報を管理する仕組みでcredentials.yml.encとmaster.keyが用いられる。これを使えばAPIのキー情報やアクセストークンなどの機密情報を暗号化し、安全に保護することができる。credentials.yml.encは機密情報の暗号化ファイルで、そのファイルを復号化するにはmaster.key(もしくはRAILS_MASTER_KEYという環境変数)に復号化キーが入っている必要がある。
